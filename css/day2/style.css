@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.box1{
+    width: 1200px;
+    height: 600px;
+    color: red;
+    padding: 20px;
+    border: 5px solid rgb(80, 25, 184);
+    background-color: lightpink;
+    background-image: url(./apple\ class.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    box-sizing: content-box;
+    /* content box is the default value */
+
+}
+
+.box2{
+    width: 200px;
+    background: linear-gradient(to right, red, rgb(73, 73, 8), rgb(10, 220, 178), blue);
+    padding: 20px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    /* border box includes padding and border within the width */
+}
+
+.box0{
+    width: 100%;
+    height: 600px;
+    background: radial-gradient(circle, red, yellow, green, blue, indigo, violet);
+    padding: 20px;
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box; 
+}
+
+
+

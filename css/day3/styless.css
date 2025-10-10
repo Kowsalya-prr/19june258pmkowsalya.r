@@ -1,0 +1,78 @@
+.z-index-container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: indianred;
+}
+
+.box1, .box2, .box3{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    padding: 20px;
+}
+
+.box1{
+    background-color: rgb(244, 80, 15);
+    z-index: 2;
+    color: rgb(6, 173, 210);
+}
+
+.box2{
+    background-color: rgb(8, 124, 241);
+    z-index: 3;
+    color: white;
+}
+
+.box3{
+    background-color: rgb(144, 238, 144);
+    color: rgb(16, 21, 11);
+    z-index: 1;
+    /* z-index denotes which box should appear on top based on numbers 1,2,3... */
+    /* z-index: 1 means this box is on the bottom */
+    /* z-index: 3 means this box is on the top */
+    /* z-index: 2 means this box is in the middle */
+    /* z-index: -1 means this box wont be visible*/
+    /* z-index: 0 means this box is behind the other boxes */
+}
+
+
+/* display properties */
+
+.block{
+    display: block;
+    background-color: lightcoral;
+    margin: 10px;
+}
+
+.inline{
+    /* height,width wont apply on the span elements */
+    display: inline;
+    background-color: lightskyblue;
+    margin: 10px;
+    padding: 10px;
+}
+
+.inline-block{
+    display: inline-block;
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+li{
+    display: inline;
+    background-color:rgb(217, 4, 4);
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+

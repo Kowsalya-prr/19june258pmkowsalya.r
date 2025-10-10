@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <form action="">
+        <!-- name -->
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter in uppercase">
+        <br>
+        <!-- age -->
+        <label for="age">Age</label>
+        <input type="number"  max="100"  min="18" id="age" name="age">
+        <br>
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <!-- password -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <!-- gender -->
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select> <br>
+        <br><br>
+        <!-- radio button -->
+         <label for="course">Select any one</label>
+         <br>
+         <input type="radio" name="course" id="course">
+         <label for="course">HTML</label> <br>
+         <input type="radio" name="course" id="course">
+         <label for="course">CSS</label><br><br>
+         <!-- checkbox -->
+          <label for="developer">Select your options</label> <br>
+          <input type="checkbox" name="developer" id="developer">
+          <label for="developer">Frontend</label> <br>
+          <input type="checkbox" name="developer" id="developer">
+          <label for="developer">Backend</label><br>
+          <input type="checkbox" name="developer" id="developer">
+          <label for="developer">Fullstack</label><br>
+          <br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" cols="20" rows="5" placeholder="Enter your message"></textarea><br>
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
